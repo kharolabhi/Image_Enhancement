@@ -1,0 +1,85 @@
+/* LandingPage.css */
+
+.landing-page {
+  background-color: #f0f2f5;
+  color: #333;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.landing-content {
+  max-width: 800px;
+  margin: 0 auto 4rem auto;
+}
+
+.landing-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.landing-content p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.features-section {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2.5rem;
+  max-width: 320px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid #e5e7eb;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.feature-icon.ai-powered {
+  background-color: #e0f2fe;
+  color: #0ea5e9;
+}
+
+.feature-icon.customizable {
+  background-color: #fce7f3;
+  color: #db2777;
+}
+
+.feature-icon.fast-processing {
+  background-color: #ffedd5;
+  color: #f97316;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.feature-card p {
+  color: #666;
+  line-height: 1.6;
+}
